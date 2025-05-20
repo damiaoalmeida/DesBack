@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class BancoEmMemoria {
 
     public static void main(String[] args) {
-        String url = "jdbc:h2:mem:meubanco;DB_CLOSE_DELAY=-1"; // banco em memória
+        String url = "jdbc:h2:mem:meubancoteste;DB_CLOSE_DELAY=-1"; // banco em memória
         String usuario = "sa";
         String senha = "";
 
