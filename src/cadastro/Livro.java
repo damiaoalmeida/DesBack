@@ -6,10 +6,10 @@ public class Livro {
 	private Long id;
 
 	private String titulo;
+
+	private List<String> autores;	
 	
 	private String editora;
-
-	private List<String> autores;
 
 	public Long getId() {
 		return id;
