@@ -1,0 +1,8 @@
+07-03 09:28:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USUARIO" already exists; SQL statement:
+CREATE TABLE usuario (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);
+ [42101-176]
